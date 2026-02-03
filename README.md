@@ -136,7 +136,7 @@ curl -X POST "http://localhost:8000/honeypot/message" \
        "message": {
          "sender": "scammer",
          "text": "Your account is BLOCKED! Pay 500 to 9876543210@paytm NOW!",
-         "timestamp": "2024-02-03T21:00:00Z"
+         "timestamp": "2026-02-03T21:00:00Z"
        }
      }'
 ```
@@ -215,7 +215,7 @@ curl -X POST "http://localhost:8000/honeypot/message" \
        "message": {
          "sender": "scammer",
          "text": "See this QR code for payment",
-         "timestamp": "2024-02-03T21:00:00Z",
+         "timestamp": "2026-02-03T21:00:00Z",
          "imageData": "base64_encoded_image_here"
        }
      }'
